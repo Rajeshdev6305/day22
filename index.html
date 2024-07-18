@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+#btn1:active ~ .dd1 img{
+    transform:rotate(360deg);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: 5;
+}
+#btn2:active ~ .dd2 img{
+    transform:rotate(360deg);
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+#btn3:active ~ .dd3 img{
+    transform:rotate(360deg);
+    transition-property: all;
+    transition-duration: 3s;
+}
+
+#btn4:active ~ .dd4 img{
+    transform:rotate(360deg);
+    transition-property: all;
+    transition-duration: 4s;
+}
+
+#btn5:active ~ .dd5 img{
+    transform:rotate(360deg);
+    transition-property: all;
+    transition-duration:5s;
+}
+img{
+    margin-top: 10px;
+    margin-left: 10px;
+  
+
+}
+button{
+    margin-left: 24px;
+    margin-top: 10px;
+display: grid;
+}
+
+</style>
+<body>
+   <div  class="container">
+        
+       <button id="btn1" >click me</button>
+     <br>
+     <div class="dd1" style="background-color: aqua; width: 120px; height: 120px; border-radius: 30px;">
+<img  width="100px" height="100px"  src="../assets/images/fan-svgrepo-com (2).svg" alt="">
+       </div>
+       <button id="btn2" >click me</button>
+       <br>
+       <div class="dd2" style="background-color: #ffe100; width: 120px; height: 120px; border-radius: 30px;">
+  <img  width="100px" height="100px"  src="../assets/images/fan-svgrepo-com (2).svg" alt="">
+         </div>
+         <button id="btn3" >click me</button>
+         <br>
+         <div class="dd3" style="background-color: hwb(120 0% 0%); width: 120px; height: 120px; border-radius: 30px;">
+    <img  width="100px" height="100px"  src="../assets/images/fan-svgrepo-com (2).svg" alt="">
+           </div>
+           <button id="btn4" >click me</button>
+           <br>
+           <div class="dd4" style="background-color: rgb(255, 51, 0); width: 120px; height: 120px; border-radius: 30px;">
+      <img width="100px" height="100px"  src="../assets/images/fan-svgrepo-com (2).svg" alt="">
+             </div>
+             <button id="btn5" >click me</button>
+             <br>
+             <div class="dd5" style="background-color: rgb(209, 35, 203); width: 120px; height: 120px; border-radius: 30px;">
+        <img  width="100px" height="100px"  src="../assets/images/fan-svgrepo-com (2).svg" alt="">
+               </div>
+       </div>
+    </div>
+</body>
+</html>
